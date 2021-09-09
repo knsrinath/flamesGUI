@@ -1,12 +1,10 @@
 git clone https://github.com/knsrinath/flamesGUI flamesGUI
 mv flamesGUI /opt/
-echo 'python3 /opt/flamesGUI/main.py' >> /bin/flamesGUI
-chmod +x /bin/flamesGUI
 echo '[Desktop Entry]
 Name=Flames GUI
 Comment=Get Flames For Two Names
 Keywords=flames;names
-Exec=flamesGUI
+Exec=python3 /opt/flamesGUI/main.py
 Terminal=false
 Type=Application
 Icon=Terminal
